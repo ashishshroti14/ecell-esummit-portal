@@ -1,0 +1,67 @@
+.bg-parallax{
+	position: absolute !important;
+	bottom: 0 !important;
+}
+
+#summit-logo {
+	width: 100% !important;
+	max-width: 700px;
+}
+#westbridge-logo {
+	width: 300px !important;
+	filter: invert(0) !important;
+}
+@media(max-width: 1000px) {   
+    #day-bg{ background-image: url("/images/homepage/day-mobile.png") !important;}
+	#night-bg{ background-image: url("/images/homepage/night-mobile.png") !important;}
+	img:not(#loader-img) {
+		width: 100%;
+	}
+}
+#night-bg, #day-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	transition-duration:1s;
+	transition-property: opacity;
+	background-size: cover !important;
+}
+.faded { opacity: 0; }
+#splash-content.day-time > :not(.btn) {
+	filter: invert(1);
+}
+#splash-content.day-time > .btn {
+	background-color: black !important;
+	border-color: black !important;
+	color: white !important;
+}
+
+#splash-content:not(.day-time) > .homepage-btn {
+	background-color: white !important;
+	border-color: white !important;
+	color: black !important;
+}
+#splash-content > *{
+	-webkit-transition: 0.9s -webkit-filter linear;
+	-moz-transition: 0.9s -moz-filter linear;
+	-moz-transition: 0.9s filter linear;
+	-ms-transition: 0.9s -ms-filter linear;
+	-o-transition: 0.9s -o-filter linear;
+	transition: 0.9s all linear, 0.9s -webkit-filter linear;
+}
+.extra-icons {
+	position: absolute;
+	z-index: 1000;
+	right: 24px;
+	color: whitesmoke;
+}
+.shop-icon {
+	top: 75px;
+}
+.access-pass-icon {
+	top: 120px;
+}

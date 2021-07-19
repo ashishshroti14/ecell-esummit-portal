@@ -1,0 +1,6 @@
+assets
+views
+
+*.html
+*.css
+*.ejs

@@ -1,0 +1,27 @@
+@media(max-width:400px){
+    
+    .logo{
+      margin-right:30px;
+       
+    }
+    .Box{
+        margin:10px;
+        height: 500px;
+    }
+    
+   
+    
+}  
+@media(max-width:500px){
+    .logo{
+        padding-left: 100px;
+       
+    }
+
+    .Box{
+        margin:10px;
+        height: 500px;
+    }
+    
+    
+}  

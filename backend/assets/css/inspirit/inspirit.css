@@ -1,0 +1,53 @@
+
+
+
+.reverse-shape-divider {
+    position: absolute;
+    top:0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+  }
+
+  
+
+  @media only screen and (min-width: 0px) and (max-width: 748px) {
+    #mainlogo {
+      transform: scaleY(0.05) scaleX(0.05);
+    }
+    #cosponsorlogo{
+      transform: scaleY(0.3) scaleX(0.3) translateY(400px);
+    }
+    #onlyondesktop{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 748px) and (max-width: 1200px){
+    #mainlogo {
+      transform: scaleY(0.1) scaleX(0.1);
+    }
+    #cosponsorlogo{
+      transform: scaleY(0.3) scaleX(0.3) translateY(500px);
+    }
+    #onlyonmobile1{
+      display: none;
+    }
+    #onlyonmobile2{
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #mainlogo {
+      transform: scaleY(0.1) scaleX(0.1) ;
+    }
+    #cosponsorlogo{
+      transform: scaleY(0.3) scaleX(0.3) translateY(500px);
+    }
+    #onlyonmobile1{
+      display: none;
+    }
+    #onlyonmobile2{
+      display: none;
+    }
+  }

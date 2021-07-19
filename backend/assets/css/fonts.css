@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+:root {
+	--content-font: "Open Sans", "Helvetica", "Arial", sans-serif;
+	--section-heading-font: 'Titillium Web', sans-serif;
+	--page-heading-font: 'Titillium Web', sans-serif;
+}
+
+/* ----------------------------------------------------------------------
+	Base Colors
+-------------------------------------------------------------------------*/
+/*Background colors*/
+/*Typography*/
+/*Font*/
+/*Header*/
+/*Side Panel*/
+/*Page Titile*/
+/*Margins*/
+/*Transitions*/
+/* ------------------------------------------------------------------------ 
+Fonts - Find/Replace your website fonts with your custom font name.
+-------------------------------------------------------------------------*/
+/*Body*/
+body {
+	font-size: 1em;
+	/* font-family: "Nunito", "Helvetica", "Arial", sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Paragraphs*/
+p {
+	/* font-family: "Nunito", "Helvetica", "Arial", sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Headings*/
+h2,
+h3,
+h4,
+h5,
+h6,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: var(--content-font);
+}
+
+h1, .h1 {
+	font-family: var(--page-heading-font);
+}
+.section-heading > *, .section-heading{
+	font-family: var(--section-heading-font) !important;
+}
+/*Main Menu*/
+#mainMenu nav>ul>li>a {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+
+#mainMenu nav>ul>li .dropdown-menu>li>a,
+#mainMenu nav>ul>li .dropdown-menu>li>span,
+#mainMenu nav>ul>li .dropdown-menu>li [class*="col-"]>ul>li>a {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+#mainMenu nav>ul>li.mega-menu-item .mega-menu-content .mega-menu-title {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.header-extras>ul>li>a:not(.btn),
+.header-extras>ul>li .topbar-dropdown>.title {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+/*Page Menu*/
+.page-menu nav>ul>li {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+.page-menu nav>ul>li .dropdown-menu {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/*Sidebar Menu*/
+.sidebar-menu {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/*Buttons*/
+button,
+a.btn:not([href]):not([tabindex]),
+.btn {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/*slider*/
+.inspiro-slider .slide .slide-captions .strong {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/*Page Title*/
+#page-title .page-title>h1 {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 44px;
+	line-height: 56px;
+	font-weight: 400;
+}
+
+/*Footer*/
+#footer {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+#footer p {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+#footer .widget .widget-title,
+#footer .widget h4 {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+#footer .widget .widget-title ul li a,
+#footer .widget h4 ul li a {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 15px;
+}
+
