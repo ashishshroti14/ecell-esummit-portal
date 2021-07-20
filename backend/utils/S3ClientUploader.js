@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 
-const AWS_ACCESS_KEY_ID = "AKIAYPOAL7JRWLENSOW7";
-const AWS_SECRET_ACCESS_KEY = "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";
+const AWS_ACCESS_KEY_ID = "";
+const AWS_SECRET_ACCESS_KEY = "";
 
 const regionName = "ap-south-1";
 
